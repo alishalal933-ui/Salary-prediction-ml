@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblit
 model=pickle.load(open('salary_model.pkl','rb'))
 st.title("Salary App")
 exp=st.number_input("Exp")
